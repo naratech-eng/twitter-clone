@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+  .hover-effect{
+    @apply cursor-pointer hover:bg-gray-300 rounded-r-full w-[52px] xl:w-auto h-[52px] xl:h-auto xl:p-3
+  }
+}
+
 /* html,
 body {
   padding: 0;
